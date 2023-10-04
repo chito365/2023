@@ -16,8 +16,8 @@ author: Oscar Kemboi
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful: "https://www.linkedin.com/in/oscarkip"
-    - Learn markdown: "hhttps://www.linkedin.com/in/oscarkip"
+    - What's new: "/#new"
+    - Contact me: "/#contact"
   LinkedIn Profile: "https://www.linkedin.com/in/oscarkip"
 
 # --- Logo --- #
