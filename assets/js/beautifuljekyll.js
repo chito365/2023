@@ -1,4 +1,4 @@
-// Dean Attali / Beautiful Jekyll 2020
+// Oscar Kemboi / Beautiful Jekyll 2020
 
 var BeautifulJekyllJS = {
 
