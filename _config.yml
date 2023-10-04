@@ -18,7 +18,7 @@ navbar-links:
   Resources:
     - Beautiful: "https://www.linkedin.com/in/oscarkip"
     - Learn markdown: "hhttps://www.linkedin.com/in/oscarkip"
-  Author's home: "https://www.linkedin.com/in/oscarkip"
+  LinkedIn Profile: "https://www.linkedin.com/in/oscarkip"
 
 # --- Logo --- #
 
@@ -222,6 +222,5 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 
 
