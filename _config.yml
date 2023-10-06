@@ -39,16 +39,15 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-cssc
   email: "kipchirchir8@hotmail.com"
   facebook: Kipchirchir8
   github: chito365
-  twitter: chitoh
+  twitter: #
   patreon: #
   youtube: UC8-BXfHFNK4SJ4bkkXdT5ag
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yournamecdcjdcjdjc
+#  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
