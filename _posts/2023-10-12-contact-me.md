@@ -4,7 +4,7 @@ title: Contact Oscar .... Kontakta Oscar
 subtitle: Contact Oscar .... Kontakta Oscar
 gh-repo: chito365/2023
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [contact]
 comments: true
 ---
 
