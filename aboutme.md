@@ -5,6 +5,9 @@ subtitle: Why you'd want? Welcome to my page...
 ---
 
 
+IT Support | Associate Developer | Maintenance | Azure | SAP
+
+
 
 <h1>Oscar Kipchirchir Kemboi</h1>
 <p>Thomsons väg 30 A | 213 72 Malmö | +46 76 454 73 51 | oscahchitoh@gmail.com | Github | Linkedin</p>
