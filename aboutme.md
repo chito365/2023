@@ -10,7 +10,7 @@ IT Support | Associate Developer | Maintenance | Azure | SAP
 
 
 <h1>Oscar Kipchirchir Kemboi</h1>
-<p>Thomsons väg 30 A | 213 72 Malmö | +46 76 454 73 51 | oscahchitoh@gmail.com | Github | Linkedin</p>
+<p>Malmö</p>
 
 <h2>Summary and Objectives</h2>
 <p>Currently Part Time volunteer at Circle Centre for the position of Maintenance officer. Web administrator, IT support, and administrative skills with 7 years of experience. WordPress Web Development and maintenance since 2012. Frontend Development and backend web development. Well conversant with Azure and SAP. Training and Communication Skills. Offered training to teachers in the use of digital competency units and played a role in the safe and effective integration of technology into education.</p>
