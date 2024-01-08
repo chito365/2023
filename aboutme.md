@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want? Welcome to my page...
+subtitle: I'm practical, motivated person with strong communication skills and a passion for learning and development..
 ---
 
 
