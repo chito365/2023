@@ -74,8 +74,6 @@ IT Support | Associate Developer | Maintenance | Azure | SAP
 
 <h2>References</h2>
 <ul>
-  <li>George Kibor • Deputy Election Coordinator • IEBC Marakwet West Constituency • +254 72256504</li>
-  <li>Robert Biwott Chesorom • Pastor/Reverend • AIC Kapsowar Township • +254725724380</li>
 </ul>
 
 
