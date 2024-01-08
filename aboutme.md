@@ -9,7 +9,7 @@ IT Support | Associate Developer | Maintenance | Azure | SAP
 
 
 
-<h1>Oscar Kipchirchir Kemboi</h1>
+<h1>Oscar Kemboi</h1>
 <p>Malmö</p>
 
 <h2>Summary and Objectives</h2>
