@@ -14,23 +14,100 @@ comments: true
 ## Use this form ...
 
 
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-*{ margin: 0; padding: 0; box-sizing: border-box; } .mr-contact-container{ margin: 15px auto; padding: 8px; max-width: 970px; font-family: 'Poppins', sans-serif; color: #fff; text-align: center; background: radial-gradient( circle at 55% 92%, #426691 0 12%, transparent 12.2% ), radial-gradient( circle at 94% 72%, #426691 0 10%, transparent 10.2% ), radial-gradient( circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2% ), radial-gradient( circle at 0% 0%, #263a53 0 40%, transparent 40.2% ), radial-gradient( circle at 80% 20%, #fdb7455e 0 10%, #b300ff58 0 12%, transparent 4% ), #1f2e43; } .mr-contact-inner h2{ padding: 8px; font-size: 28px; line-height: 38px; } .mr-contact-inner h2:after{ content:' '; width: 160px; display: block; height: 5px; margin:4px auto; border-radius:5px; background: linear-gradient(45deg,#479964,#901246,#297441,#457897); } .mr-contact-inner p{ margin-top:20px; font-size: 18px; } .mr-contact-inner2{ padding: 40px 8px; margin: 2px auto; max-width: 400px; } .mr-contact-inner2 input[type="text"],.mr-contact-inner2 input[type="email"],.mr-contact-inner2 textarea{ width: 100%; margin:5px auto; padding: 1rem 0.8rem; border: 1px solid rgba(0, 0, 0, 0.2); outline: 0; transition: border 0.15s; } .mr-contact-inner2 input[type="submit"] { font-weight: bold; margin-top: 1rem; padding: 1rem 1.5rem; border: none; background: rgba(173, 216, 230, 0.7); cursor: pointer; transition: background 0.15s; } .mr-contact-inner2 input[type="submit"]:hover { background: rgba(173, 216, 230, 1); } .mr-contact-inner2 input[type="text"]:focus,.mr-contact-inner2 input[type="email"]:focus,.mr-contact-inner2 textarea:focus{ border: 1px solid #222; } .mr-contact-social{ margin-top: 20px; padding: 10px 0; display: flex; align-items: center; justify-content: center; gap: 10px; } .mr-contact-social > *{ width: 2.2em; height: 2.2em; text-decoration: none; color: inherit; padding:5px; border-radius:50%; background-color: var(--color); box-shadow: 0 5px 4px rgba(0,0,0,.5); transition: transform 300ms ease-in; } .mr-contact-social > *:active { box-shadow: 0 -5px 4px rgba(0,0,0,.5); transform: rotate(360deg); }</style> 
-<div class="mr-contact-container"><div class="mr-contact-inner"><h2>Contact Us</h2><h3>Whatever your question, we’re here to help.</h3><p>Don't be shy to contact us. We would love to hear from you! We are just an email away.</p><p>Please, use the form below to get in touch. You will hear back from us within one day.</p></div><form class="mr-contact-inner2" onsubmit="return sendMail(this)"><input class="mr-contact-subject" type="text" placeholder="Subject" required=""><textarea class="mr-contact-message" placeholder="Your Message" required=""></textarea><input type="submit" value="Submit"><div class="mr-contact-social">
-     
-  </div>
-  </form>
-</div>
-<script>
-  function sendMail(e) {
-    let mrSubject = document.querySelector('.mr-contact-subject').value;
-    let mrMessage = document.querySelector('.mr-contact-message').value;
-    if(mrSubject && mrMessage){
-    let link = "mailto:kipchirchir8@hotmail.com?&subject=" +mrSubject+ "&body=" + mrMessage;
-    window.open(link);
-    document.querySelector('.mr-contact-inner2').reset()
-   } 
-  }
-</script>
-    
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <h2>Contact Us</h2>
+        <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; margin: 0 auto;">
+
+            <form id="contactForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <p style="color: red; margin-bottom: 10px;" id="errorMessage"></p>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        function submitForm() {
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+            var errorMessage = document.getElementById('errorMessage');
+
+            if (email.trim() === '' || subject.trim() === '' || message.trim() === '') {
+                errorMessage.textContent = 'Please fill in all fields.';
+            } else {
+                var mailto = 'oscahchitoh@gmail.com';
+                var mailSubject = 'New Contact Form Submission';
+                var mailBody = 'Email: ' + email + '\nSubject: ' + subject + '\nMessage: ' + message;
+
+                console.log('Email:', email);
+                console.log('Subject:', subject);
+                console.log('Message:', message);
+
+                document.getElementById('contactForm').reset();
+                errorMessage.textContent = '';
+                
+                // You can now use the mailto, mailSubject, and mailBody variables to send the data to the server.
+                // In a real-world scenario, you would use AJAX or another method to send data to the server.
+            }
+        }
+    </script>
