@@ -11,14 +11,11 @@ comments: true
 
 **Contact Oscar .... Kontakta Oscar**
 
- <div style="text-align: center; margin-top: 50px;">
-        <h2>Contact Us</h2>
-        <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; margin: 0 auto;">
-
+ <p style="text-align: center; margin-top: 50px;">
+        <p style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; margin: 0 auto;">
             <p>Contact me via email:</p>
             <a href="mailto:oscahchitoh@gmail.com">oscahchitoh@gmail.com</a>
-
-        </div>
+        </p>
 
 ## Use above form ...
 
