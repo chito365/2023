@@ -13,37 +13,24 @@ IT Support | Associate Developer | Maintenance | Azure | SAP
 <p>Malmö</p>
 
 <h2>Summary and Objectives</h2>
-<p>Currently Part Time volunteer at Circle Centre for the position of Maintenance officer. Web administrator, IT support, and administrative skills with 7 years of experience. WordPress Web Development and maintenance since 2012. Frontend Development and backend web development. Well conversant with Azure and SAP. Training and Communication Skills. Offered training to teachers in the use of digital competency units and played a role in the safe and effective integration of technology into education.</p>
+<p>Currently, I serve as a Part-Time Volunteer at Circle Centre in the capacity of Maintenance Officer, where I bring a diverse skill set encompassing web administration, IT support, and administrative expertise cultivated over 7 years. Since 2012, I have specialized in WordPress Web Development and maintenance, adept in both frontend and backend web development. Furthermore, I possess proficiency in Azure and SAP, complemented by robust training and communication abilities. Notably, I've conducted training sessions for educators on digital competency units, facilitating the seamless integration of technology into educational settings.</p>
 
 <h2>Work Experience</h2>
 
-<table>
-  <tr>
-    <td>Nov 2023 - Present</td>
-    <td>Maintenance Officer</td>
-    <td>Circle Centre</td>
-    <td>
-      <ul>
-        <li>Passionate about sustainability, joined Circle Center in an effort to engage and network with other people.</li>
-        <li>Identify maintenance and repair tasks needed and carry out the necessary maintenance.</li>
-        <li>Regular inspections, upkeep and maintenance of facilities or equipment within the Circle Center.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>Sept 2023 - Present</td>
-    <td>Freelancer Web administrator and Developer</td>
-    <td>Chitoh Web Services</td>
-    <td>
-      <ul>
-        <li>Build blazing fast WordPress websites.</li>
-        <li>Responsible for end-to-end web application development, bug fixes, SEO & content updates, website migration, and Web administration.</li>
-        <li>Implement IT security practices, manage Azure Active Directory, and ensure secure back-end web.</li>
-      </ul>
-    </td>
-  </tr>
-  <!-- Add more work experience entries as needed -->
-</table>
+<p><strong>Nov 2023 - Present</strong><br>
+  <strong>Maintenance Officer</strong><br>
+  <em>Circle Centre</em><br>
+  - Passionate about sustainability, I joined Circle Center with a keen interest in engaging and networking with like-minded individuals.<br>
+  - Responsibilities include identifying maintenance and repair needs and executing necessary tasks to ensure the upkeep of facilities within Circle Center.</p>
+
+<p><strong>Sept 2023 - Present</strong><br>
+  <strong>Freelancer Web Administrator and Developer</strong><br>
+  <em>Chitoh Web Services</em><br>
+  - Proficient in building high-performance WordPress websites and overseeing end-to-end web application development.<br>
+  - Tasks encompass bug fixes, SEO & content updates, website migration, and comprehensive web administration.<br>
+  - Additionally, I implement IT security measures, manage Azure Active Directory, and ensure the secure operation of backend web systems.</p>
+
+<!-- Add more work experience entries as needed -->
 
 <h2>Education</h2>
 <p>University of Eldoret, Eldoret, Kenya<br>Bachelor of Science in Computer Science, Jan 2012 - Nov 2016</p>
@@ -53,15 +40,15 @@ IT Support | Associate Developer | Maintenance | Azure | SAP
   <li>Microsoft Office 365</li>
   <li>Microsoft Azure</li>
   <li>SAP</li>
-  <li>Programming: HTML/Javascript, CSS, Python, PHP</li>
-  <li>Web development: PHP framework, Wordpress, React, Angular, or Vue.js</li>
-  <li>Database management: SQL and NoSQL databases, MongoDB, Mysql, and Postgresql databases</li>
-  <li>Software Development: Software development methodology, Git, and software testing practices</li>
+  <li>Programming languages: HTML/Javascript, CSS, Python, PHP</li>
+  <li>Web development frameworks: PHP framework, WordPress, React, Angular, or Vue.js</li>
+  <li>Database management: SQL and NoSQL databases, MongoDB, MySQL, and PostgreSQL databases</li>
+  <li>Software development practices: Software development methodology, Git, and software testing practices</li>
   <li>Operating systems: Proficient in Windows, macOS, and Linux.</li>
-  <li>Networking: IP, routing and network protocols</li>
+  <li>Networking fundamentals: IP, routing, and network protocols</li>
   <li>Cybersecurity</li>
   <li>Cloud services: AWS and Azure</li>
-  <li>Troubleshooting, IT support, and problem-solving</li>
+  <li>Troubleshooting, IT support, and problem-solving expertise</li>
 </ul>
 
 <h2>Language Skills</h2>
@@ -73,7 +60,6 @@ IT Support | Associate Developer | Maintenance | Azure | SAP
 </ul>
 
 <h2>References</h2>
-<ul>
-</ul>
+<p>Available upon request.</p>
 
 
